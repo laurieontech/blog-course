@@ -21,5 +21,8 @@ module.exports = {
         preset: `@theme-ui/preset-funk`,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }
