@@ -1,0 +1,5 @@
+---
+title: Learning about Gatsby
+---
+
+This is a post about learning Gatsby.
