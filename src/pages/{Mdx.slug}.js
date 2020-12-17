@@ -8,7 +8,7 @@ const BlogPostPage = ({ data }) => {
   return (
     <Layout>
       <article>
-        <h2>{post.frontmatter.title}</h2>
+        <h1>{post.frontmatter.title}</h1>
         <MDXRenderer>{post.body}</MDXRenderer>
       </article>
     </Layout>
