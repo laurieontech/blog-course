@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => {
+const NotFoundPage = () => {
   return (
     <Layout>
       <SEO title={`404 Page`} />
@@ -11,4 +11,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default NotFoundPage

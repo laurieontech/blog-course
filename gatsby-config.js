@@ -3,6 +3,7 @@ module.exports = {
     title: "Blog Course",
     description: `My personal blog`,
     twitter: `myhandle`,
+    siteUrl: `https://example.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
