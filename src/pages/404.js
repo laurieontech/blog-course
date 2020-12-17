@@ -1,7 +1,12 @@
-import * as React from "react";
+import * as React from "react"
+import Layout from "../components/layout"
 
 const IndexPage = () => {
-  return <div>The big empty. This page does not exist.</div>;
-};
+  return (
+    <Layout>
+      <p>The big empty. This page does not exist.</p>
+    </Layout>
+  )
+}
 
-export default IndexPage;
+export default IndexPage
