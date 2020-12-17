@@ -17,6 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-theme-ui`,
       options: {
+        prismPreset: `prism-okaidia`,
         preset: `@theme-ui/preset-funk`,
       },
     },
