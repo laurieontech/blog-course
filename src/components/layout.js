@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 const Layout = ({ children }) => (
   <div>
     <header>
-      <h1>
+      <nav>
         <Link to="/">Home</Link>
-      </h1>
+      </nav>
     </header>
     <main>{children}</main>
     <footer>
