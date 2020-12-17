@@ -26,9 +26,9 @@ const footerStyles = {
 const Layout = ({ children }) => (
   <div sx={bodyStyles}>
     <header sx={headerStyles}>
-      <h1>
+      <nav>
         <Link to="/">Home</Link>
-      </h1>
+      </nav>
     </header>
     <main sx={mainStyles}>{children}</main>
     <footer>
